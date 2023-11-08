@@ -14,3 +14,71 @@
     padding-top: 1em;
     padding-bottom: .5em;
 }
+
+.icon-design {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 95px; /* Adjust the size as needed */
+    height: 95px; /* Adjust the size as needed */
+    background-color: #E6563B; /* Replace with your desired background color */
+    border: 8px solid #fff; /* White border */
+    border-radius: 50%;
+    color: #fff; /* Text color */
+    font-size: 1em; /* Adjust the font size as needed */
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Anton, sans-serif;
+    /*font-weight: bold;*/
+}
+
+.icon-develop {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 95px; /* Adjust the size as needed */
+    height: 95px; /* Adjust the size as needed */
+    background-color: #EB9D3A; /* Replace with your desired background color */
+    border: 8px solid #fff; /* White border */
+    border-radius: 50%;
+    color: #fff; /* Text color */
+    font-size: 1em; /* Adjust the font size as needed */
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Anton, sans-serif;
+    /*font-weight: bold;*/
+}
+
+.icon-support {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 95px; /* Adjust the size as needed */
+    height: 95px; /* Adjust the size as needed */
+    background-color: #7CB06C; /* Replace with your desired background color */
+    border: 8px solid #fff; /* White border */
+    border-radius: 50%;
+    color: #fff; /* Text color */
+    font-size: 1em; /* Adjust the font size as needed */
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Anton, sans-serif;
+    /*font-weight: bold;*/
+}
+
+.icon-host {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 95px; /* Adjust the size as needed */
+    height: 95px; /* Adjust the size as needed */
+    background-color: #00ABA9; /* Replace with your desired background color */
+    border: 8px solid #fff; /* White border */
+    border-radius: 50%;
+    color: #fff; /* Text color */
+    font-size: 1em; /* Adjust the font size as needed */
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Anton, sans-serif;
+    /*font-weight: bold;*/
+}
