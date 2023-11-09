@@ -1,84 +1,151 @@
-.navbar-brand{
-    padding-left: 10px;
-    margin-right: 40px;
-    font-size: 1.25em;
+body {
+    font-family: 'Abel', sans-serif;
+    background: #f0f0f0;
 }
 
-.nav-link{
+:root {
+    --red: #e6563b;
+    --green: #7cb06c;
+    --yellow: #EB9D3A;
+    --blue: #00aba9;
+}
+
+.wrapper {
+    max-width: 1100px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Anton', sans-serif;
+}
+
+h1 {font-size: 4em;}
+h2 {font-size: 3em;}
+h3 {font-size: 2.5em;}
+h4 {font-size: 2em;}
+h5 {font-size: 1.75em;}
+
+.brand-name {font-size: 1.75em;}
+
+nav a {
     font-size: .75em;
-    padding-bottom: 2px;
+    color: black;
 }
 
-.main-heading{
-    font-size: 2.5em;
-    padding-top: 1em;
-    padding-bottom: .5em;
+.nav-background {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    height: 59px;
+    width: 100%;
+    top: 37px;
+    z-index: -1000;
 }
 
-.icon-design {
-    display: inline-flex;
+.circle {
+    width: 100px;
+    height: 100px;
+    display: flex;
     align-items: center;
     justify-content: center;
-    width: 95px; /* Adjust the size as needed */
-    height: 95px; /* Adjust the size as needed */
-    background-color: #E6563B; /* Replace with your desired background color */
-    border: 8px solid #fff; /* White border */
-    border-radius: 50%;
-    color: #fff; /* Text color */
-    font-size: 1em; /* Adjust the font size as needed */
+    border: 5px solid white;
+    border-radius: 50px;
+    color: white;
     text-align: center;
-    text-transform: uppercase;
-    font-family: Anton, sans-serif;
-    /*font-weight: bold;*/
+    margin: 1vw;
 }
 
-.icon-develop {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    width: 95px; /* Adjust the size as needed */
-    height: 95px; /* Adjust the size as needed */
-    background-color: #EB9D3A; /* Replace with your desired background color */
-    border: 8px solid #fff; /* White border */
-    border-radius: 50%;
-    color: #fff; /* Text color */
-    font-size: 1em; /* Adjust the font size as needed */
-    text-align: center;
-    text-transform: uppercase;
-    font-family: Anton, sans-serif;
-    /*font-weight: bold;*/
+.circle h6 {
+    margin: 0;
 }
 
-.icon-support {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    width: 95px; /* Adjust the size as needed */
-    height: 95px; /* Adjust the size as needed */
-    background-color: #7CB06C; /* Replace with your desired background color */
-    border: 8px solid #fff; /* White border */
-    border-radius: 50%;
-    color: #fff; /* Text color */
-    font-size: 1em; /* Adjust the font size as needed */
-    text-align: center;
-    text-transform: uppercase;
-    font-family: Anton, sans-serif;
-    /*font-weight: bold;*/
+.red {background-color: var(--red);}
+.blue {background-color: var(--blue);}
+.yellow {background-color: var(--yellow);}
+.green {background-color: var(--green);}
+
+.small-circles {
+    height: 18px;
+    width: 18px;
+    border-radius: 18px;
+    font-size: 8px;
+    line-height: 18px;
+    font-family: 'Anton', sans-serif;
+    margin-left: 1em;
 }
 
-.icon-host {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    width: 95px; /* Adjust the size as needed */
-    height: 95px; /* Adjust the size as needed */
-    background-color: #00ABA9; /* Replace with your desired background color */
-    border: 8px solid #fff; /* White border */
-    border-radius: 50%;
-    color: #fff; /* Text color */
-    font-size: 1em; /* Adjust the font size as needed */
+.small-circles span {
+    position: relative;
+    top: 1px;
+}
+
+nav .nav-item {
+    position: relative;
+    bottom: 6px;
+}
+
+.tweet i {
+    font-size: 2em;
+    margin-right: .3em;
+    position: relative;
+    top: .4em;
+    color: rgb(27 160 239);
+}
+
+.images {
+    max-width: 100%;
+    border: .5em solid #e6e6e6;
+    border-radius: 4px;
+    background-size: cover;
+
+}
+
+.images-ipad {background-image: url("../images/apple-ipad.jpg")}
+.images-macs {background-image: url("../images/macbook.jpg")}
+.images-man {background-image: url("../images/man.jpg")}
+.images-security {background-image: url("../images/security.jpg")}
+
+/*.small-images {*/
+/*    border: .2em solid #e6e6e6;*/
+/*    border-radius: 1px;*/
+/*    width: 50px;*/
+/*    height: 50px;*/
+/*    margin-top: 0;*/
+/*}*/
+
+/*.small-images-phone {background-image: url("../images/mobile-phone.jpg")}*/
+/*.small-images-head {background-image: url("../images/head.jpg")}*/
+/*.small-images-google {background-image: url("../images/google-search.jpg")}*/
+
+.sub-title {
     text-align: center;
-    text-transform: uppercase;
-    font-family: Anton, sans-serif;
-    /*font-weight: bold;*/
+    margin-top: 5em;
+}
+
+@media screen and (min-width: 768px) {
+    .sub-title {margin-top: 2em;}
+    hr {width: 55%;}
+}
+
+
+@media screen and (min-width: 992px) {
+    .sub-title {text-align: left;}
+    hr {width: 100%;}
+
+    .brand-name  {
+        position: relative;
+        top: 5px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .wrapper .row {margin-top: 3em;}
+    .custom-card {padding-right: 3em;}
+    hr {width: 100%;}
 }
