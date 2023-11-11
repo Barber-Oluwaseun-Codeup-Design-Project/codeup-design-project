@@ -1,18 +1,7 @@
-
-body {
-    font-family: 'Abel', sans-serif;
-    background: #f0f0f0;
-
-.main-content{
-    background-color: #F0F0F0;
-}
-
-.navbar-brand{
-    padding-left: 10px;
-    margin-right: 40px;
-    font-size: 1.25em;
-
-}
+/** {*/
+/*    !*font-family: 'Abel Regular', sans-serif;*!*/
+/*    background: #f0f0f0;*/
+/*}*/
 
 :root {
     --red: #e6563b;
@@ -49,7 +38,6 @@ nav a {
     color: black;
 }
 
-
 .nav-background {
     position: absolute;
     margin: 0;
@@ -58,18 +46,6 @@ nav a {
     width: 100%;
     top: 37px;
     z-index: -1000;
-
-.main-heading{
-    font-size: 4em;
-    padding-top: 1em;
-    padding-bottom: .5em;
-    font-family: Anton, sans-serif;
-}
-
-.sub-heading{
-    font-family: Anton, sans-serif;
-    font-size: 2.5em;
-
 }
 
 .circle {
@@ -82,7 +58,6 @@ nav a {
     border-radius: 50px;
     color: white;
     text-align: center;
-
     margin: 1vw;
 }
 
@@ -98,53 +73,19 @@ nav a {
 .small-circles {
     height: 18px;
     width: 18px;
-    border-radius: 18px;
+    border-radius: 50%;
     font-size: 8px;
     line-height: 18px;
     font-family: 'Anton', sans-serif;
-    margin-left: 1em;
-=======
-    text-transform: uppercase;
-    font-family: Anton, sans-serif;
-}
-
-.icon-develop {
-    display: inline-flex;
+    margin-left: 5px;
     align-items: center;
     justify-content: center;
-    width: 95px; /* Adjust the size as needed */
-    height: 95px; /* Adjust the size as needed */
-    background-color: #EB9D3A; /* Replace with your desired background color */
-    border: 8px solid #fff; /* White border */
-    border-radius: 50%;
-    color: #fff; /* Text color */
-    font-size: 1em; /* Adjust the font size as needed */
-    text-align: center;
-    text-transform: uppercase;
-    font-family: Anton, sans-serif;
 }
 
-.icon-support {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    width: 95px; /* Adjust the size as needed */
-    height: 95px; /* Adjust the size as needed */
-    background-color: #7CB06C; /* Replace with your desired background color */
-    border: 8px solid #fff; /* White border */
-    border-radius: 50%;
-    color: #fff; /* Text color */
-    font-size: 1em; /* Adjust the font size as needed */
-    text-align: center;
-    text-transform: uppercase;
-    font-family: Anton, sans-serif;
-
-}
-
-.small-circles span {
-    position: relative;
-    top: 1px;
-}
+/*.small-circles span {*/
+/*    position: relative;*/
+/*    top: 1px;*/
+/*}*/
 
 nav .nav-item {
     position: relative;
@@ -164,7 +105,8 @@ nav .nav-item {
     border: .5em solid #e6e6e6;
     border-radius: 4px;
     background-size: cover;
-
+    padding: 0;
+    margin-bottom: 2px;
 }
 
 .images-ipad {background-image: url("../images/apple-ipad.jpg")}
@@ -186,83 +128,38 @@ nav .nav-item {
 
 .sub-title {
     text-align: center;
-
     margin-top: 5em;
 }
 
-@media screen and (min-width: 768px) {
-    .sub-title {margin-top: 2em;}
-    hr {width: 55%;}
+/*@media screen and (min-width: 768px) {*/
+/*    .sub-title {margin-top: 2em;}*/
+/*    hr {width: 55%;}*/
+/*}*/
+
+
+/*@media screen and (min-width: 992px) {*/
+/*    .sub-title {text-align: left;}*/
+/*    hr {width: 100%;}*/
+
+/*    .brand-name  {*/
+/*        position: relative;*/
+/*        top: 5px;*/
+/*    }*/
+/*}*/
+
+/*@media screen and (min-width: 1200px) {*/
+/*    .wrapper .row {margin-top: 3em;}*/
+/*    .custom-card {padding-right: 3em;}*/
+/*    hr {width: 100%;}*/
+/*}*/
+
+.main-body{
+    background-color: #F0F0F0;
 }
 
-
-@media screen and (min-width: 992px) {
-    .sub-title {text-align: left;}
-    hr {width: 100%;}
-
-    .brand-name  {
-        position: relative;
-        top: 5px;
-    }
-}
-
-@media screen and (min-width: 1200px) {
-    .wrapper .row {margin-top: 3em;}
-    .custom-card {padding-right: 3em;}
-    hr {width: 100%;}
-=======
-    text-transform: uppercase;
-    font-family: Anton, sans-serif;
-}
-
-.circle-red {
-    width: 18px;
-    height: 18px;
-    border-radius: 50%;
-    background-color: #E6563B; /* You can change the background color */
-    color: #000; /* Set text color to black */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: Anton, sans-serif;
-    font-size: .6em;
-}
-
-.circle-orange {
-    width: 18px;
-    height: 18px;
-    border-radius: 50%;
-    background-color: #EB9D3A; /* You can change the background color */
-    color: #000; /* Set text color to black */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: Anton, sans-serif;
-    font-size: .6em;
-}
-
-.circle-green {
-    width: 18px;
-    height: 18px;
-    border-radius: 50%;
-    background-color: #7CB06C; /* You can change the background color */
-    color: #000; /* Set text color to black */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: Anton, sans-serif;
-    font-size: .6em;
-}
-
-.circle-teal {
-    width: 18px;
-    height: 18px;
-    border-radius: 50%;
-    background-color: #00ABA9; /* You can change the background color */
-    color: #000; /* Set text color to black */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: Anton, sans-serif;
-    font-size: .6em;
+.custom-border {
+    border: 6px solid #E6E6E6;
+    padding: 0;
+    width: 49%;
+    margin-top: 10px;
 }

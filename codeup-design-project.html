@@ -12,39 +12,31 @@
     <link href='https://fonts.googleapis.com/css?family=Abel' rel='stylesheet'>
     <link rel="stylesheet" href="css/codeupCSS.css">
 </head>
-
-<body>
+<body class="main-body">
 <div class="nav-background bg-light"></div>
 <div class="wrapper">
-    <nav class="navbar navbar-light">
-        <div class="container-fluid">
-            <ul class="nav w-100 justify-content-center">
-                <li class="order-md-3 order-lg-0 mr-lg-auto">
-                    <a href="#" class="navbar-brand d-block w-100 mb-2 m-md-0 text-center">
-                        <img class="" width="105px" src="images/logo.png" alt="Codeup Design logo">
-                        <div class="brand-name d-block d-lg-inline text-center w-100">codeup design</div>
-                    </a>
-                </li>
-                <div class="w-100 d-md-none"></div><!-- used to force line break in flex items for mobile -->
-                <li class="nav-item order-md-1 order-lg-1 mt-md-5">
-                    <a class="nav-link text-uppercase px-2 px-md-3" href="">Services</a>
-                </li>
-                <li class="nav-item order-md-2 order-lg-2 mt-md-5">
-                    <a class="nav-link text-uppercase px-2 pl-md-3 pr-md-0 px-lg-3" href="">Work</a>
-                </li>
-                <li class="nav-item order-md-4 order-lg-3 mt-md-5">
-                    <a class="nav-link text-uppercase px-2 pl-md-0 pr-md-3 px-lg-3" href="">Blog</a>
-                </li>
-                <li class="nav-item order-md-5 order-lg-4 mt-md-5">
-                    <a class="nav-link text-uppercase px-2 px-md-3" href="">Contact</a>
-                </li>
-            </ul>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid main-content">
+            <img src="images/logo.png" width="50" height="50">
+            <a class="navbar-brand d-none d-lg-block" href="#">codeup design</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                    aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active" aria-current="page" href="#">SERVICES</a>
+                    <a class="nav-link" href="#">WORK</a>
+                    <a class="nav-link" href="#">BLOG</a>
+                    <a class="nav-link">CONTACT</a>
+                </div>
+            </div>
         </div>
     </nav>
 
     <header class="container-fluid">
 
-        <h3 class="text-uppercase text-center">Visual Design & Web Development</h3>
+        <h3 class="text-uppercase text-center main-body ">Visual Design & Web Development</h3>
         <h5 class="text-uppercase text-center mt-4 mb-4">From Park City, Utah</h5>
 
         <div class="circles d-flex justify-content-center">
@@ -67,86 +59,93 @@
 
         </div>
 
-        <hr class="d-none d-md-block">
     </header>
-
+    <hr style="width: 80%; margin-right: 10%; margin-left: 10%;">
     <main class="container-fluid">
         <div class="row">
             <div class="col-12 col-lg-8">
-                <p class="text-uppercase sub-title">Selected Work</p>
+                <p class="text-uppercase sub-title" style="text-align: center">Selected Work</p>
                 <div class="row">
                     <div class="col-12 col-md-6">
-                        <div class="custom-card">
+<!--                        <div class="custom-card">-->
                             <div class="images images-ipad">
                                 <img class=" w-100" src="images/apple-ipad.jpg" alt="ipad">
                             </div>
 
-                            <div class="custom-card-bottom mb-4 mb-md-0 d-flex">
-                                <div class="mr-auto text-uppercase">Featured Project</div>
-                                <div class="custom-card-small-circles d-flex align-items-center">
+                            <div class="container-flex mb-4 mb-md-0">
+                                <div class="row">
+                                <div class="col-8 mr-auto text-uppercase">Featured Project</div>
+                                <div class="col-4 d-flex justify-content-end">
                                     <div class="small-circles text-center red"><span>D</span></div>
                                     <div class="small-circles text-center yellow"><span>D</span></div>
                                     <div class="small-circles text-center green"><span>S</span></div>
                                     <div class="small-circles text-center blue"><span>H</span></div>
                                 </div>
+                                </div>
                             </div>
-                        </div>
+<!--                        </div>-->
                     </div>
                     <div class="col-12 col-md-6">
-                        <div class="custom-card">
+<!--                        <div class="custom-card">-->
                             <div class="images images-macs">
                                 <img class="w-100" src="images/macbook.jpg" alt="macbook">
                             </div>
 
-                            <div class="custom-card-bottom mb-4 mb-md-0 d-flex">
-                                <div class="mr-auto text-uppercase">Featured Project</div>
-                                <div class="custom-card-small-circles d-flex align-items-center">
-                                    <div class="small-circles text-center red"><span>D</span></div>
-                                    <div class="small-circles text-center yellow"><span>D</span></div>
-                                    <div class="small-circles text-center green"><span>S</span></div>
-                                    <div class="small-circles text-center blue"><span>H</span></div>
+                            <div class="container-flex mb-4 mb-md-0">
+                                <div class="row">
+                                    <div class="col-8 mr-auto text-uppercase">Featured Project</div>
+                                    <div class="col-4 d-flex justify-content-end">
+                                        <div class="small-circles text-center red"><span>D</span></div>
+                                        <div class="small-circles text-center yellow"><span>D</span></div>
+                                        <div class="small-circles text-center green"><span>S</span></div>
+                                        <div class="small-circles text-center blue"><span>H</span></div>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
+<!--                        </div>-->
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-12 col-md-6">
-                        <div class="custom-card">
-                            <div class="images images-man">
-                                <img class="w-100" src="images/man.jpg" alt="macbook">
+<!--                        <div class="custom-card">-->
+                            <div class="images">
+                                <img class="w-100 ratio-4x3" src="images/man.jpg" alt="macbook">
                             </div>
 
-                            <div class="custom-card-bottom mb-4 mb-md-0 d-flex">
-                                <div class="mr-auto text-uppercase">Featured Project</div>
-                                <div class="custom-card-small-circles d-flex align-items-center">
-                                    <div class="small-circles text-center red"><span>D</span></div>
-                                    <div class="small-circles text-center yellow"><span>D</span></div>
-                                    <div class="small-circles text-center green"><span>S</span></div>
-                                    <div class="small-circles text-center blue"><span>H</span></div>
+                            <div class="container-flex mb-4 mb-md-0">
+                                <div class="row">
+                                    <div class="col-8 mr-auto text-uppercase">Featured Project</div>
+                                    <div class="col-4 d-flex justify-content-end">
+                                        <div class="small-circles text-center red"><span>D</span></div>
+                                        <div class="small-circles text-center yellow"><span>D</span></div>
+                                        <div class="small-circles text-center green"><span>S</span></div>
+                                        <div class="small-circles text-center blue"><span>H</span></div>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
+<!--                        </div>-->
                     </div>
                     <div class="col-12 col-md-6">
-                        <div class="custom-card">
-                            <div class="images images-security">
-                                <img class=" w-100" src="images/security.jpg" alt="security">
+<!--                        <div class="custom-card">-->
+                            <div class="images">
+                                <img class="w-100" src="images/security.jpg" alt="security">
                             </div>
-                            <div class="custom-card-bottom mb-4 mb-md-0 d-flex">
-                                <div class="mr-auto text-uppercase">Featured Project</div>
-                                <div class="custom-card-small-circles d-flex align-items-center">
-                                    <div class="small-circles text-center red"><span>D</span></div>
-                                    <div class="small-circles text-center yellow"><span>D</span></div>
-                                    <div class="small-circles text-center green"><span>S</span></div>
-                                    <div class="small-circles text-center blue"><span>H</span></div>
+                            <div class="container-flex mb-4 mb-md-0">
+                                <div class="row">
+                                    <div class="col-8 mr-auto text-uppercase">Featured Project</div>
+                                    <div class="col-4 d-flex justify-content-end">
+                                        <div class="small-circles text-center red"><span>D</span></div>
+                                        <div class="small-circles text-center yellow"><span>D</span></div>
+                                        <div class="small-circles text-center green"><span>S</span></div>
+                                        <div class="small-circles text-center blue"><span>H</span></div>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
+<!--                        </div>-->
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-lg-4">
+            <div class="d-none d-lg-block col-12 col-lg-4">
                 <p class="text-uppercase sub-title">The Last</p>
                 <div class="row">
                     <div class="col-12">
@@ -154,38 +153,39 @@
                             <div class="small-images small-images-phone mr-3">
 
 
-                            <div class="media-body">
-                                <h5 class="mt-0 text-uppercase"><img  src="images/mobile-phone.jpg" width="50" height="50" alt="Generic placeholder image">The admin bar and absolute positioning</h5>
+                                <div class="media-body">
+                                    <h5 class="mt-0 text-uppercase"><img  src="images/mobile-phone.jpg" style="margin-bottom: 10px" width="50" height="50" alt="Generic placeholder image">The admin bar and absolute positioning</h5>
+                                </div>
                             </div>
-                        </div>
-                        <div class="media mb-4">
-                            <div class="small-images small-images-head mr-3">
-                                <img src="images/head.jpg" width="50" height="50" alt="placeholder">
+                            <div class="media mb-4">
+                                <div class="small-images small-images-head mr-3">
+                                    <img src="images/head.jpg" width="50" height="50" alt="placeholder">
+                                </div>
+                                <div class="media-body">
+                                    <h5 class="mt-0 text-uppercase">The admin bar and absolute positioning</h5>
+                                </div>
                             </div>
-                            <div class="media-body">
-                                <h5 class="mt-0 text-uppercase">The admin bar and absolute positioning</h5>
+                            <div class="media mb-4">
+                                <div class="small-images small-images-google mr-3">
+                                    <img class="invisible" src="images/ipad.jpg" width="50" height="50" alt="Generic placeholder image">
+                                </div>
+                                <div class="media-body">
+                                    <h5 class="mt-0 text-uppercase">The admin bar and absolute positioning</h5>
+                                </div>
                             </div>
-                        </div>
-                        <div class="media mb-4">
-                            <div class="small-images small-images-google mr-3">
-                                <img class="invisible" src="images/ipad.jpg" width="50" height="50" alt="Generic placeholder image">
+                            <div class="tweet">
+                                <p class="text-uppercase font-weight-bold">
+                                    <!--                                <a href=""><i class="fab fa-twitter"></i></a>-->
+                                    Last Tweet
+                                </p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto dolorem doloremque officia! Hic, illo laboriosam laborum nemo pariatur perferendis quibusdam voluptatum! Aperiam autem dolorum, numquam officia quam rem suscipit voluptatem?</p>
                             </div>
-                            <div class="media-body">
-                                <h5 class="mt-0 text-uppercase">The admin bar and absolute positioning</h5>
-                            </div>
-                        </div>
-                        <div class="tweet">
-                            <p class="text-uppercase font-weight-bold">
-<!--                                <a href=""><i class="fab fa-twitter"></i></a>-->
-                                Last Tweet
-                            </p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto dolorem doloremque officia! Hic, illo laboriosam laborum nemo pariatur perferendis quibusdam voluptatum! Aperiam autem dolorum, numquam officia quam rem suscipit voluptatem?</p>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
     </main>
+</div>
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
