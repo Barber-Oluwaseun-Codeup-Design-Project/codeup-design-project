@@ -38,6 +38,10 @@ nav a {
     color: black;
 }
 
+.bg-light{
+    background-color: #F0F0F0 !important;
+}
+
 .nav-background {
     position: absolute;
     margin: 0;
@@ -55,7 +59,7 @@ nav a {
     align-items: center;
     justify-content: center;
     border: 5px solid white;
-    border-radius: 50px;
+    border-radius: 50%;
     color: white;
     text-align: center;
     margin: 1vw;
@@ -101,18 +105,18 @@ nav .nav-item {
 }
 
 .images {
-    max-width: 100%;
-    border: .5em solid #e6e6e6;
+    /*max-width: 100%;*/
+    border: 10px solid #e6e6e6 !important;
     border-radius: 4px;
     background-size: cover;
     padding: 0;
-    margin-bottom: 2px;
+
 }
 
-.images-ipad {background-image: url("../images/apple-ipad.jpg")}
-.images-macs {background-image: url("../images/macbook.jpg")}
-.images-man {background-image: url("../images/man.jpg")}
-.images-security {background-image: url("../images/security.jpg")}
+/*.images-ipad {background-image: url("../images/apple-ipad.jpg")}*/
+/*.images-macs {background-image: url("../images/macbook.jpg")}*/
+/*.images-man {background-image: url("../images/man.jpg")}*/
+/*.images-security {background-image: url("../images/security.jpg")}*/
 
 /*.small-images {*/
 /*    border: .2em solid #e6e6e6;*/
